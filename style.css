@@ -1,16 +1,28 @@
 body {
-	margin: 0;
-	padding: 0;
-	background: black;
-	color: yellow;
-	font-family: sans-serif;
+	background-color: black ;
+    margin: 0;
+    padding: 0;
+    font: 16px;
+    font-family: 'courier new', sans-serif;
+    line-height: 2;
+    color: white; 
 }
-main {
-	padding: 1em;
+
+article{
+	padding: 5em;
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+
 }
+
 h1 {
-	margin: 0 0 1em 0;
+    text-shadow: 2px 2px magenta;
 }
-p {
-	margin: 0 0 1em 0;
+
+
+img {
+    float: center;
+    height: 300px;
+    width: 300px;
 }
